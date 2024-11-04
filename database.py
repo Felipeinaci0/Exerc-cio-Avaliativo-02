@@ -17,4 +17,4 @@ class Database:
         
     def drop_all(self):
         with self.driver.session() as session:
-            session.run("MATCH (n) DETACH DELETE n")    
+            session.run("MATCH (n) DETACH DELETE n")
